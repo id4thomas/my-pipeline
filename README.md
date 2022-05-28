@@ -6,6 +6,7 @@
 
 ## Tasks
 * classification-hf: Huggingface model based Classfication task
+* pretrain-hf: Pre-training code for Huggingface models
 
 ## Visualization
 * captum: Templates using "captum" package
