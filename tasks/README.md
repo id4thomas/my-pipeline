@@ -1,5 +1,6 @@
 # Tasks
 * classification-hf: Huggingface model based Classfication task
+* generation-hf: Huggingface model based Generation task
 * pretrain-hf: Pre-training code for Huggingface models
     * roberta: masked lm training
 
