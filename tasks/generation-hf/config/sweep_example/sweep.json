@@ -1,0 +1,13 @@
+{
+    "name": "sweep_test",
+    "method": "random",
+    "parameters": {
+        "pretrained_model": {"values": ["hyunwoongko/kobart"]},
+        "epochs": {"values": [30]},
+        "per_device_batch_size": {"values": [16]},
+        "learning_rate": {"values": [5e-6, 1e-5, 2e-5]},
+        "seed": {"values": [100, 200, 300]},
+        "label_smoothing_factor": {"values": [0, 0.1, 0.3]},
+        "fp16": {"values": [true]}
+    }
+}
